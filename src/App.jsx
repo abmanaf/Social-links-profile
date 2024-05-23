@@ -33,11 +33,12 @@ function App() {
             <a href="#"><button>Instagram</button></a>
             </div>
           </div>
-          <div className="attribution">
+      </div>
+
+      <div className="attribution" style={{marginTop: '1em'}}>
              Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
               Coded by <a href="#">Alibabs</a>.
         </div>
-      </div>
     </>
   )
 }
