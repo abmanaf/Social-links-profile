@@ -4,6 +4,7 @@ body {
   background-color: #141414;
   color: white;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .main-container {
   width: 30%;
@@ -13,8 +14,8 @@ body {
   margin-right: auto;
   box-shadow: 1px 0px 0px 1px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 1em;
-  margin-top: 2em;
+  padding: 0 1.8em;
+  margin-top: 1.5em;
 }
 .image img {
   border-radius: 50%;
@@ -38,5 +39,8 @@ body {
   .main-container {
     width: 70%;
     height: 85vh;
+  }
+  .button button {
+    width: 100%;
   }
 }
