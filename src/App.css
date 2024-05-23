@@ -7,18 +7,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .main-container {
-  width: 30%;
-  height: 90vh;
+  width: 25%;
+  height: 85vh;
   background-color: #1f1f1f;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 1px 0px 0px 1px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 0 1.8em;
+  padding: 0 0em;
   margin-top: 1.5em;
 }
 .image img {
   border-radius: 50%;
+  width: 100px;
+  margin-top: 3em;
 }
 .button button {
   width: 80%;
@@ -31,6 +33,11 @@ body {
   border: none;
   color: white;
 }
+.button button:hover {
+  background-color: yellow;
+  transition: 1s ease-out;
+  color: black;
+}
 .button button:focus {
   background-color: yellow;
   color: black;
@@ -38,7 +45,9 @@ body {
 @media only screen and (max-width: 768px) {
   .main-container {
     width: 70%;
-    height: 85vh;
+    height: 60vh;
+    margin-top: 10em;
+    padding: 0 1.8em;
   }
   .button button {
     width: 100%;
