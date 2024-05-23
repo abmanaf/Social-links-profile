@@ -45,7 +45,7 @@ body {
 @media only screen and (max-width: 768px) {
   .main-container {
     width: 70%;
-    height: 60vh;
+    height: 100vh;
     margin-top: 2em;
     padding: 0 1.8em;
   }
